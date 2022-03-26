@@ -1,7 +1,9 @@
-/* Created by: Ms Raffin
+/* Created by: MariaG
+ * Modified by: Ms Raffin
  * Created on: March 2022
  * This CSS file defines the style for index.php
- */
+ * ICS2O-Unit2-03-PHP-UserInput
+*/
 
 form {
   background-color: #d5f2fe;
@@ -33,11 +35,11 @@ iframe {
   width: 80%;
   margin-top: 30px;
   margin-bottom: 5%;
-  background-color: #e7d0e5;
+  background-color: #e5d0e7;
 }
 
 #yellow {
-  background-color: #a6aff2;
+  background-color: #feffaf;
   padding: 20px;
   width: 80%;
   margin-left: 10%;
