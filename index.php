@@ -18,22 +18,19 @@
     <title>User Input with PHP</title>
   </head>
   <body>
-    <?php echo "<h1>PHP and JS for User Input</h1>" ?>
-    <div id="yellow">
-      <?php echo "<h3>Welcome!</h3>" ?>
-      <?php echo "<p>This website takes your input and calls it using variables! Please type your information below:</p>" ?>
-    </div>
+    <?php echo "<h1>User Input in PHP</h1>" ?>
     <form action="./welcome.php" method="post" target="result">
-      <label for="name">First Name</label>
+      <label for="first-name">First Name</label>
       <input type="text" id="first-name" placeholder="Your Name" name="name"><br><br>
-      <label for="colour">Favourite Colour</label>
-      <input type="text" id="colour-entered" placeholder="Your Favourite Colour" name="colour"><br><br>
-      <label for="shade">Pick Your Favourite Shade</label>
-      <input type="color" id="shade-picked" placeholder="Colour" name="shade"><br><br>
+      <label for="age">Age</label>
+      <input type="text" id="age" placeholder="Your Age" name="age"><br><br>
       <input type="submit" value="Enter">
+			<br><br>	
     </form>
+<div id="result"></div>
     <center>
       <iframe id="result" name="result">
+				Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
       </iframe>
     </center>
   </body>

@@ -1,2 +1,1 @@
-Welcome, <?php echo $_POST["name"]; ?>!
-Your favourite colour is <?php echo $_POST["colour"]; ?>. You picked a lovely shade.
+Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
